@@ -4,10 +4,10 @@ import 'package:http/http.dart' as http;
 import 'dart:io';
 
 class CloudinaryService {
-  final String cloudName = "dnnkl8lgn"; // Your Cloud Name
-  final String apiKey = "484965995814579"; // Your API Key
-  final String apiSecret = "jt9kpCakeH78PfcuCIgxylmEJX4"; // Your API Secret
-  final String uploadPreset = "unsigned_preset"; // Your upload preset
+  final String cloudName = ""; // Your Cloud Name
+  final String apiKey = ""; // Your API Key
+  final String apiSecret = ""; // Your API Secret
+  final String uploadPreset = ""; // Your upload preset
 
   Future<String?> uploadImage(File image) async {
     final String url = "https://api.cloudinary.com/v1_1/$cloudName/image/upload";
